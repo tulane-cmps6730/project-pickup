@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pickup Line Results</title>
+</head>
+<body>
+    <h1>Pickup Line Results</h1>
+    <p>Starting text: {{ start_text }}</p>
+    <h2>Generated Pickup Lines:</h2>
+    <ul>
+        {% for pickup_line in pickup_lines %}
+            <li>{{ pickup_line }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
