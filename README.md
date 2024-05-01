@@ -12,7 +12,7 @@ Below is a look at our Flask app in action!
 
 
 ### Contents
-- [FINAL CODE](FINAL CODE): where all our final code lies
+- [FINAL CODE](FINAL_CODE): where all our final code lies
 - [ourflask](ourflask): our flask app files
 
 - [docs](docs): template to create slides for project presentations
